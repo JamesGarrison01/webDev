@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Form Validation using a sample registration form</title>
+    <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+    
+    <meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+    
+    <link rel='stylesheet' href='../style/sstyle.css' type='text/css' />
+    
+    <script src="../scripts/script.js"></script>
+</head>
+<body>
+    
+    <h1>Registration Form</h1> <hr>
+    <p id="validation" style="color: red;"></p>
+    <p id="verified" style="color: green;"></p>
+    <form name='registration' onSubmit="return formValidation();">
+        <ul>
+          <li><label class="formFeed">Name</label></li>
+		  <li><input type="text" id="name"></li>
+          <li><label class="formFeed">City</label></li>
+		  <li><select class="selectClass">
+			<option id="austin" checked>Austin</option>
+			<option id="dallas" checked>Dallas</option>
+			<option id="houston" checked>Houston</option>
+			<option id="sanAntonio" checked>San Antonio</option>
+            </select></li>
+          <li><label class="formFeed">Phone number</label></li>
+		  <li><input type="text" id="phonenum"></li>
+          <li><label class="formFeed">Blood Type</label></li>
+		  <select class="selectClass2">
+			<option id="aBlood" checked>A</option>
+			<option id="bBlood" checked>B</option>
+			<option id="abBlood" checked>AB</option>
+			<option id="oBlood" checked>O</option>
+		  </select>
+		  <li><label class="formFeed">Rh Factor</label></li>
+	       <li>Positive<input type="radio" name="rhFact" value="Positive" checked> </li>
+	      <li>Negative<input type="radio" name="rhFact" value="Negative">
+            </li>
+		  <li><label class="formFeed">Address</label></li>
+		  <li><input type="text" id="address"></li>
+          <hr>
+		  <input type="submit" class="btn" value="Create Donor">
+		  <input type="reset" class="btn" value="Clear">
+        </ul>
+    </form>
+</body>
+</html>

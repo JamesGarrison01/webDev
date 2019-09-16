@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+input[type=text]{
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.selectClass, .selectClass2{
+  width: 54%;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=radio]{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+h1 {
+margin-left: 70px;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+form li {
+list-style: none;
+margin-bottom: 5px;
+}
+
+form ul li label{
+width: 100%;
+text-align: right;
+margin-right: 10px;
+font-size:14px;
+}
+
+label{
+    text-align: right;
+    margin-top: 10px;
+}
+.formFeed {
+    font-size: 20px;
+    
+}
+
+[type="submit"], [type="reset"] {
+clear: left;
+margin: 20px 0 0 230px;
+font-size:18px
+}
+
+p {
+margin-left: 70px;
+font-weight: bold;
+}
+
+.btn{
+    display: inline-block;
+}
+

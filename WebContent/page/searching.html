@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Form Validation using a sample registration form</title>
+    <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+    
+    <meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+    
+    <link rel='stylesheet' href='../style/sstyle.css' type='text/css' />
+    
+    <script src="../scripts/script.js"></script>
+</head>
+<body>
+    <img src="../img/blood.jpg">
+    
+    <h1>Search Form</h1> <hr>
+    <p id="validation" style="color: red;"></p>
+    <p id="verified" style="color: green;"></p>
+    <form name='registration' onSubmit="return formValidation();">
+        <ul>
+          <li><label class="formFeed">Select A City</label></li>
+		  <li><select class="selectClass">
+			<option id="austin" checked>Austin</option>
+			<option id="dallas" checked>Dallas</option>
+			<option id="houston" checked>Houston</option>
+			<option id="sanAntonio" checked>San Antonio</option>
+          </select></li>
+          <li><label class="formFeed">Select A Blood Type</label></li>
+		  <select class="selectClass2">
+            <option id=""></option>
+			<option id="aBlood">A</option>
+			<option id="bBlood">B</option>
+			<option id="abBlood">AB</option>
+			<option id="oBlood">O</option>
+		  </select>
+		  <li><label class="formFeed">Rh Factor</label></li>
+	       <li>Positive<input type="radio" name="rhFact" value="Positive"> </li>
+	      <li>Negative<input type="radio" name="rhFact" value="Negative">
+            </li>
+          <hr>
+            <button type="button" class="btn"><a href="results.html">Submit</a></button>
+        </ul>
+    </form>
+</body>
+</html>
